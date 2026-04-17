@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Online - Produtos Variados</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">*"Div principal que envolve todo o conteúdo da página, usada para centralizar e organizar os elementos."*
+        <header>*
+            <h1>🛍️ Loja Online Premium</h1>
+            <p>Encontre os melhores produtos das categorias que você procura</p>
+        </header>
+
+        <div class="tabs-container">
+            <div class="tabs-buttons">
+                <button class="tab-btn active" data-tab="eletronicos">📱 Eletrônicos</button> *"o active indica qual aba está ativa inicialmente"*
+                <button class="tab-btn" data-tab="roupas">👕 Roupas</button>
+                <button class="tab-btn" data-tab="alimentos">🍎 Alimentos</button>
+                <button class="tab-btn" data-tab="livros">📚 Livros</button>
+                <button class="tab-btn" data-tab="decoracao">🏠 Decoração</button>
+            </div>
+            *"Contêiner para os botões de navegação das abas, 
+            permitindo que os usuários alternem entre as diferentes categorias de produtos."*
+
+            <!-- TAB 1: ELETRÔNICOS -->
+            <div class="tab-content active" id="eletronicos">
+                <h2>Eletrônicos</h2>
+                <div class="produtos-grid">
+                    <div class="produto-card">
+                        <div class="produto-img">📱</div>
+                        <h3>Smartphone Premium</h3>
+                        <p class="preco">R$ 1.999,00</p>
+                        <p class="descricao">Tela AMOLED 6.5", 5G, Câmera 48MP</p>
+                        <button class="btn-comprar">Adicionar ao Carrinho</button>
+                    </div>
+                    <div class="produto-card">
+                        <div class="produto-img">💻💻</div>
+                        <h3>Notebook Ultrabook</h3>
+                        <p class="preco">R$ 3.499,00</p>
+                        <p class="descricao">Intel i7, 16GB RAM, SSD 512GB</p>
+                        <button class="btn-comprar">Adicionar ao Carrinho</button>
+                    </div>
+                    <div class="produto-card">
+                        <div class="produto-img">🎧</div>
+                        <h3>Fones Bluetooth</h3>
+                        <p class="preco">R$ 299,00</p>
+                        <p class="descricao">Cancelamento de ruído, 30h de bateria</p>
+                        <button class="btn-comprar">Adicionar ao Carrinho</button>
+                    </div>
+                    <div class="produto-card">
+                        <div class="produto-img">⌚</div>
+                        <h3>Smartwatch</h3>
+                        <p class="preco">R$ 1.299,00</p>
+                        <p class="descricao">Monitor cardíaco, GPS, Relógio inteligente</p>
+                        <button class="btn-comprar">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB 2: ROUPAS -->
+            <div class="tab-content" id="roupas">
+                <h2>Roupas</h2>
+                <div class="produtos-grid">
+                    <div class="produto-card">
+                        <div class="produto-img">👔</div>
+                        <h3>Camiseta Premium</h3>
+                        <p class="preco">R$ 89,90</p>
+                        <p class="descricao">100% algodão, cores variadas, P ao GG</p>
+                        <button class="btn-comprar">Adicionar ao Carrinho</button>
+                    </div>
+                    <div class="produto-card">
+                        <div class="produto-img">👖</div>
+                        <h3>Calça Jeans</h3>
+                        <p class="preco">R$ 149,90</p>
+                        <p class="descricao">Modelo slim fit, lavagem moderna</p>
+                        <button class="btn-comprar">Adicionar ao Carrinho</button>
+                    </div>
+                    <div class="produto-card">
+                        <div class="produto-img">🧥</div>
+                        <h3>Jaqueta Impermeável</h3>
+                        <p class="preco">R$ 299,90</p>
+                        <p class="descricao">Proteção contra chuva, leve e confortável</p>
+                        <button class="btn-comprar">Adicionar ao Carrinho</button>
+                    </div>
+                    <div class="produto-card">
+                        <div class="produto-img">👟</div>
+                        <h3>Tênis Esportivo</h3>
+                        <p class="preco">R$ 199,90</p>
+                        <p class="descricao">Tecnologia de amortecimento, para corrida</p>
+                        <button class="btn-comprar">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB 3: ALIMENTOS -->
+            <div class="tab-content" id="alimentos">
+                <h2>Alimentos</h2>
+                <div class="produtos-grid">
+                    <div class="produto-card">
+                        <div class="produto-img">🍎</div>
+                        <h3>Frutas Frescas</h3>
+                        <p class="preco">R$ 24,90</p>
+                        <p class="descricao">Caixa de maçã vermelha, 1kg</p>
+                        <button class="btn-comprar">Adicionar ao Carrinho</button>
+                    </div>
+                    <div class="produto-card">
+                        <div class="produto-img">🥕</div>
+                        <h3>Vegetais Orgânicos</h3>
+                        <p class="preco">R$ 32,90</p>
+                        <p class="descricao">Cenoura, brócolis e alface biodinâmica</p>
+                        <button class="btn-comprar">Adicionar ao Carrinho</button>
+                    </div>
+                    <div class="produto-card">
+                        <div class="produto-img">🥛</div>
+                        <h3>Leite Integral</h3>
+                        <p class="preco">R$ 4,50</p>
+                        <p class="descricao">Leite zero lactose, 1L, origem familiar</p>
+                        <button class="btn-comprar">Adicionar ao Carrinho</button>
+                    </div>
+                    <div class="produto-card">
+                        <div class="produto-img">🍞</div>
+                        <h3>Pão Integral</h3>
+                        <p class="preco">R$ 8,90</p>
+                        <p class="descricao">Pão artesanal integral, feito diariamente</p>
+                        <button class="btn-comprar">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB 4: LIVROS -->
+            <div class="tab-content" id="livros">
+                <h2>Livros</h2>
+                <div class="produtos-grid">
+                    <div class="produto-card">
+                        <div class="produto-img">📖</div>
+                        <h3>O Poder do Hábito</h3>
+                        <p class="preco">R$ 39,90</p>
+                        <p class="descricao">Charles Duhigg - Desenvolvimento pessoal</p>
+                        <button class="btn-comprar">Adicionar ao Carrinho</button>
+                    </div>
+                    <div class="produto-card">
+                        <div class="produto-img">📚</div>
+                        <h3>1984</h3>
+                        <p class="preco">R$ 34,90</p>
+                        <p class="descricao">George Orwell - Ficção distópica clássico</p>
+                        <button class="btn-comprar">Adicionar ao Carrinho</button>
+                    </div>
+                    <div class="produto-card">
+                        <div class="produto-img">📕</div>
+                        <h3>Rápido e Devagar</h3>
+                        <p class="preco">R$ 44,90</p>
+                        <p class="descricao">Daniel Kahneman - Psicologia e economia</p>
+                        <button class="btn-comprar">Adicionar ao Carrinho</button>
+                    </div>
+                    <div class="produto-card">
+                        <div class="produto-img">📗</div>
+                        <h3>Sapiens</h3>
+                        <p class="preco">R$ 49,90</p>
+                        <p class="descricao">Yuval Harari - História da humanidade</p>
+                        <button class="btn-comprar">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB 5: DECORAÇÃO -->
+            <div class="tab-content" id="decoracao">
+                <h2>Decoração</h2>
+                <div class="produtos-grid">
+                    <div class="produto-card">
+                        <div class="produto-img">🕯️</div>
+                        <h3>Vela Aromática</h3>
+                        <p class="preco">R$ 59,90</p>
+                        <p class="descricao">Vela de soja, aroma lavanda, 200g</p>
+                        <button class="btn-comprar">Adicionar ao Carrinho</button>
+                    </div>
+                    <div class="produto-card">
+                        <div class="produto-img">🖼️</div>
+                        <h3>Quadro Decorativo</h3>
+                        <p class="preco">R$ 129,90</p>
+                        <p class="descricao">Tela moderna, 80x60cm, pronta para pendurar</p>
+                        <button class="btn-comprar">Adicionar ao Carrinho</button>
+                    </div>
+                    <div class="produto-card">
+                        <div class="produto-img">🪴</div>
+                        <h3>Planta Artificial</h3>
+                        <p class="preco">R$ 79,90</p>
+                        <p class="descricao">Planta em vaso decorativo, sem manutenção</p>
+                        <button class="btn-comprar">Adicionar ao Carrinho</button>
+                    </div>
+                    <div class="produto-card">
+                        <div class="produto-img">💡</div>
+                        <h3>Luminária LED</h3>
+                        <p class="preco">R$ 89,90</p>
+                        <p class="descricao">3 temperaturas de cor, controle remoto</p>
+                        <button class="btn-comprar">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
